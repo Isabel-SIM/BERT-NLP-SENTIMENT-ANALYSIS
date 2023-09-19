@@ -30,7 +30,9 @@ This repository demonstrates how to perform text classification using the BERT m
 
 - **Inference and Predictions:** The model is used for inference and predicting class labels, sentiment, and text generation.
 
-## Examples Generated..
+---  
+
+## Examples Generated via my BERT model..
 
 
 1. **Sentiment Analysis:** Analyze the sentiment of a text.
@@ -44,6 +46,10 @@ This repository demonstrates how to perform text classification using the BERT m
     text_to_classify = "The world cup has been fascinating."
     predicted_class = "Sports"
     ```
+---  
+   
+## Examples Generated via a pre-trained model..
+
 
 3. **Text Generation:** Generate text based on a prompt.
     ```python
