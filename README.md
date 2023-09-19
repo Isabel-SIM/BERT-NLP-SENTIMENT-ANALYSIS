@@ -66,7 +66,7 @@ pip install scikit-learn
     ```
 ---  
    
-## Examples Generated via a pre-trained model..
+## Examples Generated via the pre-trained model..
 
 
 3. **Text Generation:** Generate text based on a prompt.
