@@ -30,6 +30,26 @@ This repository demonstrates how to perform text classification using the BERT m
 
 - **Inference and Predictions:** The model is used for inference and predicting class labels, sentiment, and text generation.
 
+## Requirements
+
+To run this code, you'll need the following:
+- A current version of Python ``` (python --version) ```
+- PyTorch ``` (pip install torch torchvision torchaudio) ```
+- Hugging Face Transformers ``` (pip install transformers) ```
+- Datasets ``` (pip install datasets) ```
+- Sklearn ``` (pip install scikit-learn) ```
+
+## Usage Instructions
+
+To use this code, follow these steps:
+
+1. Install the necessary libraries:
+
+```terminal
+pip install transformers
+pip install datasets
+```
+
 ---  
 
 ## Examples Generated via my BERT model..
