@@ -79,6 +79,8 @@ pip install scikit-learn
     ```python
     long_text = "Natural Language Processing (NLP) models are a subset of artificial intelligence (AI) that focuses on the interaction between computers and human language. These models aim to enable machines to understand, interpret, and generate human language in a way that is both meaningful and contextually relevant. NLP has a wide range of applications, from sentiment analysis and text classification to machine translation and chatbots. One of the key breakthroughs in NLP is the development of transformer-based models, such as BERT and GPT, which have achieved remarkable results in various language understanding and generation tasks. These models have opened up new possibilities in language-related AI applications, making NLP a rapidly evolving field with exciting opportunities for research and innovation."
     generated_summary = "Natural Language Processing (NLP) models aim to enable machines to understand, interpret, and generate human language. NLP has a wide range of applications, from sentiment analysis and text classification to machine translation and chatbots. One of the key breakthroughs in NLP is the development of transformer-based models."
+
+<br/>
     
 ---  
 
