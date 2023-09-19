@@ -2,6 +2,8 @@
 
 This repository demonstrates how to perform text classification using the BERT model with PyTorch and Hugging Face Transformers library. I will walk you through the process, including data loading, model training, evaluation, and inference.
 
+---  
+
 ## Overview
 
 - **NLP (Natural Language Processing):** Natural Language Processing is a subfield of artificial intelligence that focuses on the interaction between computers and human language. It involves tasks like text classification, sentiment analysis, and text generation.
@@ -10,11 +12,14 @@ This repository demonstrates how to perform text classification using the BERT m
 
 - **BERT (Bidirectional Encoder Representations from Transformers):** BERT is a pre-trained language model that has achieved state-of-the-art results in various NLP tasks. It is designed to understand the context of words in a sentence by considering both the left and right context.
 
+---  
+
 ## Training Details
 
 - The BERT model was trained for text classification on the AG News dataset.
 - The model was trained on 6 epochs.
 
+---  
 
 ## Code Explanation
 
@@ -30,24 +35,17 @@ This repository demonstrates how to perform text classification using the BERT m
 
 - **Inference and Predictions:** The model is used for inference and predicting class labels, sentiment, and text generation.
 
-## Requirements
-
-To run this code, you'll need the following:
-- A current version of Python ``` (python --version) ```
-- PyTorch ``` (pip install torch torchvision torchaudio) ```
-- Hugging Face Transformers ``` (pip install transformers) ```
-- Datasets ``` (pip install datasets) ```
-- Sklearn ``` (pip install scikit-learn) ```
+---  
 
 ## Usage Instructions
 
-To use this code, follow these steps:
-
-1. Install the necessary libraries:
+To run this code, you'll need the following libraries:
 
 ```terminal
 pip install transformers
 pip install datasets
+pip install torch torchvision torchaudio
+pip install scikit-learn
 ```
 
 ---  
@@ -55,7 +53,7 @@ pip install datasets
 ## Examples Generated via my BERT model..
 
 
-1. **Sentiment Analysis:** Analyze the sentiment of a text.
+1. **Sentiment Analysis:** Analyse the sentiment of a text.
     ```python
     text_to_analyze = "This is a fantastic product!"
     predicted_sentiment = "Positive"
@@ -88,4 +86,4 @@ pip install datasets
 
 ---
 
-This repository showcases the power of BERT-based models in NLP tasks, offering accurate text classification and sentiment analysis capabilities. Whether you're analyzing sentiment in customer reviews, classifying news articles, or generating text, this code provides a strong foundation for future NLP research.
+This repository showcases the power of BERT-based models in NLP tasks, offering accurate text classification and sentiment analysis capabilities. Whether you're analysing sentiment in customer reviews, classifying news articles, or generating text, this code provides a strong foundation for future NLP research.
